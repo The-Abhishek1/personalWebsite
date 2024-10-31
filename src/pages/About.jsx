@@ -25,6 +25,7 @@ lead projects from conception to deployment. I am constantly seeking to improve 
 with a particular interest in ethical hacking and cybersecurity.
 
             </p>
+            
         </div>
         <div className='flex flex-col items-center gap-10 lg:flex-row'>
         <div>

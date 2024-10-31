@@ -6,6 +6,7 @@ function Skills() {
         <div className='w-[80px] border-b-8 pb-2 border-blue-500'>
             <h1 className='font-bold text-blue-500  text-[25px]'>Skills</h1>
         </div>
+        <img src="https://tryhackme-badges.s3.amazonaws.com/Idiot17.png" alt="Your Image Badge" />
         <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
         <div className='flex flex-col gap-3'>
             <div className='flex flex-col items-start gap-2'>

@@ -2,7 +2,7 @@ import Menu from "../pages/Menu";
 //Main Function
 export default function Home() {
   return (
-    <div>
+    <div className="p-2">
         <Menu/>
     </div>
 

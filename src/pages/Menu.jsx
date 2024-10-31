@@ -94,19 +94,19 @@ function Menu() {
           <h1 className='font-bold uppercase text-blue-900'>Abhishek Gowda</h1>
     
           <div className='flex flex-row items-center gap-2'>
-            <Link href={""} className='p-[5px] rounded-full bg-blue-800 '>
+            <Link href={"https://www.instagram.com/abhishekg0wda_02/"} className='p-[5px] rounded-full bg-blue-800 '>
             <FaInstagram size={17} color='white'/>
             </Link>
-            <Link  href={""} className='p-[5px] rounded-full bg-blue-800 '>
+            <Link  href={"https://github.com/The-Abhishek1"} className='p-[5px] rounded-full bg-blue-800 '>
             <FaSquareGithub size={17} color='white'/>
             </Link>
-            <Link  href={""} className='p-[5px] rounded-full bg-blue-800 '>
+            <Link  href={"https://www.linkedin.com/in/abhishek-gowda17"} className='p-[5px] rounded-full bg-blue-800 '>
             <FaLinkedin size={17} color='white'/>
             </Link>
-            <Link  href={""} className='p-[5px] rounded-full bg-blue-800 '>
+            <Link  href={"https://tryhackme.com/r/p/Idiot17"} className='p-[5px] rounded-full bg-blue-800 '>
             <SiTryhackme size={17} color='white'/>
             </Link>
-            <Link  href={""} className='p-[5px] rounded-full bg-blue-800 '>
+            <Link  href={"https://wa.me/qr/PRIOT6BEX4BWB1"} className='p-[5px] rounded-full bg-blue-800 '>
             <FaWhatsapp size={17} color='white'/>
             </Link>
           </div>
@@ -146,19 +146,19 @@ function Menu() {
           <h1 className='font-bold uppercase text-blue-900'>Abhishek Gowda</h1>
     
           <div className='flex flex-row items-center gap-2'>
-            <Link href={""} className='p-[5px] rounded-full bg-blue-800 '>
+            <Link href={"https://www.instagram.com/abhishekg0wda_02/"} className='p-[5px] rounded-full bg-blue-800 '>
             <FaInstagram size={17} color='white'/>
             </Link>
-            <Link  href={""} className='p-[5px] rounded-full bg-blue-800 '>
+            <Link  href={"https://github.com/The-Abhishek1"} className='p-[5px] rounded-full bg-blue-800 '>
             <FaSquareGithub size={17} color='white'/>
             </Link>
-            <Link  href={""} className='p-[5px] rounded-full bg-blue-800 '>
+            <Link  href={"https://www.linkedin.com/in/abhishek-gowda17"} className='p-[5px] rounded-full bg-blue-800 '>
             <FaLinkedin size={17} color='white'/>
             </Link>
-            <Link  href={""} className='p-[5px] rounded-full bg-blue-800 '>
+            <Link  href={"https://tryhackme.com/r/p/Idiot17"} className='p-[5px] rounded-full bg-blue-800 '>
             <SiTryhackme size={17} color='white'/>
             </Link>
-            <Link  href={""} className='p-[5px] rounded-full bg-blue-800 '>
+            <Link  href={"https://wa.me/qr/PRIOT6BEX4BWB1"} className='p-[5px] rounded-full bg-blue-800 '>
             <FaWhatsapp size={17} color='white'/>
             </Link>
           </div>

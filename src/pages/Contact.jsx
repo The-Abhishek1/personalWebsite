@@ -15,7 +15,8 @@ function Contact() {
     <div className='w-[110px] border-b-8 pb-2 border-blue-500'>
         <h1 className='font-bold text-blue-500 text-[25px]'>Contact</h1>
     </div>
-    <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+    <p>
+    📩 Let’s connect! Reach out via email, social media, or the contact form for collaborations, projects, or inquiries. 🌐</p>
 <div className='flex flex-col gap-10 lg:flex-row'>
 {/* My Information */}
     <div className='flex w-full flex-col gap-5 lg:pl-10 justify-center bg-white text-black p-5 rounded-md'>
@@ -23,14 +24,14 @@ function Contact() {
       <CiLocationOn size={30} color='#079ef0'/>
         <div className='flex flex-col gap-2'>
           <h1 className='font-bold text-[17px]'>Address</h1>
-          <p className='text-[13px] text-gray-500'>A101 Adam Street, New York, NY 535022</p>
+          <p className='text-[13px] text-gray-500'>Bangalore, Karnataka India❤️‍🔥</p>
         </div>
       </div>
 
       <div className='flex flex-row gap-5 items-center'>
       <IoCallOutline size={30} color='#079ef0'/>
       <div className='flex flex-col gap-2'>
-          <h1 className='font-bold text-[17px]'>Call Us</h1>
+          <h1 className='font-bold text-[17px]'>Call</h1>
           <p className='text-[13px] text-gray-500'>+91 6366652685</p>
         </div>
       </div>
@@ -38,7 +39,7 @@ function Contact() {
       <div className='flex flex-row gap-5 items-center' >
       <MdOutlineAttachEmail size={30} color='#079ef0'/>
       <div className='flex flex-col gap-2'>
-          <h1 className='font-bold text-[17px]'>Email Us</h1>
+          <h1 className='font-bold text-[17px]'>Email</h1>
           <p className='text-[13px] text-gray-500'>idiot63666@gmail.com</p>
         </div>
       </div>
@@ -65,7 +66,10 @@ function Contact() {
       <textarea name="message" id="" rows={5} className='border-[1px] px-3 outline-none p-1 rounded-sm'></textarea>
       </div>
 
-      <button className='bg-blue-600 p-2 text-[15px] text-white rounded-sm'>Send Message</button>
+      <button onClick={()=>{
+        alert("Your message has been received, I'll contact you soon!!")
+      }
+      } className='bg-blue-600 p-2 text-[15px] text-white rounded-sm'>Send Message</button>
       </div>
     </div>
 

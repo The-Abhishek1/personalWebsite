@@ -19,6 +19,7 @@ import { FaSquareGithub } from "react-icons/fa6";
 import { RiAccountPinBoxFill } from "react-icons/ri";
 import { CiServer } from "react-icons/ci";
 import Link from 'next/link';
+import Portfolio from './Portfolio';
 
 //Main Funtion
 function Menu() {
@@ -40,14 +41,14 @@ function Menu() {
   
   const scrollToResume = () => {
     window.scrollTo({
-      top:1850,
+      top:1200,
       behavior:'smooth',
     })
   }
   
   const scrollToPortfolio = () => {
     window.scrollTo({
-      top:0,
+      top:1950,
       behavior:'smooth',
     })
   }
@@ -61,7 +62,7 @@ function Menu() {
   
   const scrollToContact = () => {
     window.scrollTo({
-      top:2180,
+      top:3550,
       behavior:'smooth',
     })
   }
@@ -196,7 +197,7 @@ function Menu() {
       {/* Home Page */}
       <div className='relative w-full'>
         <Image src={b2} className='w-full h-[661px]  object-cover' alt='Front Image'/>
-        <div className='absolute bottom-[30%] left-[20%] z-10 bg-white p-3 rounded-tr-3xl rounded-bl-3xl animate-bounce text-black'>
+        <div className='absolute bottom-[20%] ml-5 msmm:right-[5%] right-[10%] z-10 bg-white p-3 rounded-tr-3xl rounded-bl-3xl animate-bounce text-black'>
           <h1 className='font-bold text-[25px] text-blue-900'>Abhishek Gowda</h1>
           <h3 className='text-[15px]'>Ethical Hacker && Web Developer</h3>
         </div>
@@ -211,6 +212,9 @@ function Menu() {
         </div>
         <div>
           <Skills/>
+        </div>
+        <div>
+          <Portfolio/>
         </div>
         <div>
           <Contact/>
